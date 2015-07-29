@@ -2,7 +2,7 @@ var ListenerMethods = require('reflux-core').ListenerMethods;
 
 module.exports = function listenTo(listenable, callback, initial) {
   return {
-    init(){
+    init: function(){
       this.on('mount', function () {
         for (var m in ListenerMethods) {
           if (this[m] !== ListenerMethods[m]) {

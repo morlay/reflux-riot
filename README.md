@@ -4,10 +4,12 @@ all method as [reflux](https://github.com/reflux/refluxjs), but for now only let
 
 # usages in riot
 
+`npm i riot-reflux -S`
+
 ``` js
 
 import riot from 'riot'
-import reflux from 'reflux'
+import reflux from 'riot-reflux'
 import Store from './path/to/Store'
 
 riot.tag(

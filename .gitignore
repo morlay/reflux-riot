@@ -1,0 +1,12 @@
+node_modules/
+
+*.iml
+*.ipr
+*.iws
+*.ids
+*.log
+*.pyc
+.*.swp
+.idea
+.tern-project
+.DS_Store

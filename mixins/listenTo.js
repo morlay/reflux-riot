@@ -1,4 +1,4 @@
-var ListenerMethods = require('reflux/src/ListenerMethods');
+var ListenerMethods = require('reflux-core').ListenerMethods;
 
 module.exports = function listenTo(listenable, callback, initial) {
   return {

@@ -1,15 +1,19 @@
-# riot-reflux
+# reflux-riot
 
-all method as [reflux](https://github.com/reflux/refluxjs), but for now only let `Reflux.listenTo` work
+reflux mixins for [riot](https://github.com/riot/riot)
+
+all method as [reflux](https://github.com/reflux/refluxjs), 
+
+but for now only let `Reflux.listenTo` work
 
 # usages in riot
 
-`npm i riot-reflux -S`
+`npm i reflux-riot -S`
 
 ``` js
 
 import riot from 'riot'
-import reflux from 'riot-reflux'
+import reflux from 'reflux-riot'
 import Store from './path/to/Store'
 
 riot.tag(

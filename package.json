@@ -1,6 +1,6 @@
 {
-  "name": "riot-reflux",
-  "version": "0.0.6",
+  "name": "reflux-riot",
+  "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,14 +9,19 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/morlay/riot-reflux.git"
+    "url": "git+https://github.com/morlay/reflux-riot.git"
   },
   "bugs": {
-    "url": "https://github.com/morlay/riot-reflux/issues"
+    "url": "https://github.com/morlay/reflux-riot/issues"
   },
-  "homepage": "https://github.com/morlay/riot-reflux#readme",
-  "description": "",
+  "homepage": "https://github.com/morlay/reflux-riot#readme",
+  "description": "reflux mixins for riot",
   "dependencies": {
-    "reflux-core": "^0.2.0-rc"
-  }
+    "reflux-core": "^0.2.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "reflux",
+    "riot"
+  ]
 }

@@ -1,2 +1,5 @@
-module.exports = require('reflux-core')
-module.exports.listenTo = require('./mixins/listenTo')
+var Reflux = require('reflux-core')
+
+Reflux.use(require('./addons/listenTo'))
+
+module.exports = Reflux
